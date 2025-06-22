@@ -1,0 +1,5 @@
+[xlibre-input-wacom]
+source = "git"
+git = "https://github.com/x11libre/xf86-input-wacom.git"
+include_regex = "xlibre-xf86-input-wacom-.*"
+prefix = "xlibre-xf86-input-wacom-"
