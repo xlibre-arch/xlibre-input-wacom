@@ -14,7 +14,7 @@ pkgbase = xlibre-input-wacom
 	makedepends = python-yaml
 	makedepends = python-gobject
 	makedepends = python-attrs
-	makedepends = xlibre-server-devel
+	makedepends = xlibre-xserver-devel
 	makedepends = xorgproto
 	makedepends = X-ABI-XINPUT_VERSION=26.0
 	depends = glibc
@@ -23,6 +23,7 @@ pkgbase = xlibre-input-wacom
 	depends = libxinerama
 	depends = libxrandr
 	depends = systemd-libs
+	provides = xf86-input-wacom
 	conflicts = xf86-input-wacom
 	conflicts = xorg-server<21.1.1
 	conflicts = X-ABI-XINPUT_VERSION<26

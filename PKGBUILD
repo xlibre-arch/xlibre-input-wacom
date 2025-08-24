@@ -1,4 +1,5 @@
 # Maintainer:  Vitalii Kuzhdin <vitaliikuzhdin@gmail.com>
+# Maintainer:  artist for XLibre
 
 _basename="xf86-input-wacom"
 pkgname="${_basename//xf86/xlibre}"
@@ -11,8 +12,8 @@ license=('GPL-2.0-or-later')
 depends=('glibc' 'libx11' 'libxi' 'libxinerama' 'libxrandr' 'systemd-libs')
 makedepends=('gobject-introspection' 'meson>=0.51' 'python-libevdev' 'python-pytest'
              'python-yaml' 'python-gobject' 'python-attrs'
-             'xlibre-server-devel' 'xorgproto' 'X-ABI-XINPUT_VERSION=26.0')
-# provides=("${_basename}")
+             'xlibre-xserver-devel' 'xorgproto' 'X-ABI-XINPUT_VERSION=26.0')
+provides=("${_basename}")
 conflicts=("${_basename}" 'xorg-server<21.1.1' 'X-ABI-XINPUT_VERSION<26' 'X-ABI-XINPUT_VERSION>=27')
 groups=('xlibre-drivers')
 _pkgsrc="${_basename}-xlibre-${_basename}-${pkgver}"
