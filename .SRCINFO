@@ -8,7 +8,7 @@ pkgbase = xlibre-input-wacom
 	license = GPL-2.0-or-later
 	makedepends = xlibre-xserver-devel>=25.0
 	makedepends = xorgproto
-	makedepends = meson>=0.51.0
+	makedepends = meson
 	makedepends = gobject-introspection
 	makedepends = python-libevdev
 	makedepends = python-pytest
