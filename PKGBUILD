@@ -9,7 +9,7 @@
 pkgname=xlibre-input-wacom
 _pkgname=xf86-input-wacom
 pkgver=25.0.0
-pkgrel=7
+pkgrel=8
 pkgdesc="X.Org Wacom tablet driver"
 arch=(x86_64)
 url='https://github.com/X11Libre/xf86-input-wacom'
